@@ -1,0 +1,20 @@
+==============================================================================
+WebTestCases                                                                  
+==============================================================================
+WebTestCases.TC 002 allure report                                             
+==============================================================================
+Testing Login using multiple data 1                                   | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+Testing Login using multiple data 2                                   | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+WebTestCases.TC 002 allure report                                     | FAIL |
+2 tests, 0 passed, 2 failed
+==============================================================================
+WebTestCases                                                          | FAIL |
+2 tests, 0 passed, 2 failed
+==============================================================================
+Output:  C:\Users\843974\PycharmProjects\PyRobot\pabot_results\4\output.xml

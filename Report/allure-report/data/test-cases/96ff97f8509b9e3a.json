@@ -1,0 +1,354 @@
+{
+  "uid" : "96ff97f8509b9e3a",
+  "name" : "4",
+  "fullName" : "SeleniumEasyBDD.4",
+  "historyId" : "5101921a54c5e9919fcde8e18d897ad0",
+  "time" : {
+    "start" : 1629444751976,
+    "stop" : 1629444773687,
+    "duration" : 21711
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Scenario:Testing Invalid login",
+      "time" : {
+        "start" : 1629444751976,
+        "stop" : 1629444773686,
+        "duration" : 21710
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "SeleniumKeywords.Given Start Website and Maximize",
+        "time" : {
+          "start" : 1629444751978,
+          "stop" : 1629444765356,
+          "duration" : 13378
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "SeleniumLibrary.Create Webdriver",
+          "time" : {
+            "start" : 1629444751980,
+            "stop" : 1629444754808,
+            "duration" : 2828
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "d4446148c0bdc1d0",
+            "name" : "Keyword Log",
+            "source" : "d4446148c0bdc1d0.html",
+            "type" : "text/html",
+            "size" : 71
+          } ],
+          "parameters" : [ {
+            "name" : "arg1",
+            "value" : "${Browser}"
+          }, {
+            "name" : "arg2",
+            "value" : "executable_path=${executable_path}"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "SeleniumLibrary.Go To",
+          "time" : {
+            "start" : 1629444754810,
+            "stop" : 1629444764975,
+            "duration" : 10165
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "77d560c2af8a19d",
+            "name" : "Keyword Log",
+            "source" : "77d560c2af8a19d.html",
+            "type" : "text/html",
+            "size" : 68
+          } ],
+          "parameters" : [ {
+            "name" : "arg1",
+            "value" : "${domain}"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "SeleniumLibrary.Maximize Browser Window",
+          "time" : {
+            "start" : 1629444764976,
+            "stop" : 1629444765343,
+            "duration" : 367
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "SeleniumLibrary.Set Selenium Implicit Wait",
+          "time" : {
+            "start" : 1629444765344,
+            "stop" : 1629444765354,
+            "duration" : 10
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "arg1",
+            "value" : "5 seconds"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "SeleniumKeywords.When Testing Login For Multiple Data",
+        "time" : {
+          "start" : 1629444765358,
+          "stop" : 1629444770161,
+          "duration" : 4803
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "SeleniumLibrary.Click Link",
+          "time" : {
+            "start" : 1629444765361,
+            "stop" : 1629444767974,
+            "duration" : 2613
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "e19d313eee8ac509",
+            "name" : "Keyword Log",
+            "source" : "e19d313eee8ac509.html",
+            "type" : "text/html",
+            "size" : 68
+          } ],
+          "parameters" : [ {
+            "name" : "arg1",
+            "value" : "${loginlink}"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "SeleniumLibrary.Input Text",
+          "time" : {
+            "start" : 1629444767975,
+            "stop" : 1629444768301,
+            "duration" : 326
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "954f80d05d9d3163",
+            "name" : "Keyword Log",
+            "source" : "954f80d05d9d3163.html",
+            "type" : "text/html",
+            "size" : 78
+          } ],
+          "parameters" : [ {
+            "name" : "arg1",
+            "value" : "${username}"
+          }, {
+            "name" : "arg2",
+            "value" : "${user}"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "SeleniumLibrary.Input Text",
+          "time" : {
+            "start" : 1629444768301,
+            "stop" : 1629444768497,
+            "duration" : 196
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "c98d55ceb0ccc6eb",
+            "name" : "Keyword Log",
+            "source" : "c98d55ceb0ccc6eb.html",
+            "type" : "text/html",
+            "size" : 78
+          } ],
+          "parameters" : [ {
+            "name" : "arg1",
+            "value" : "${password}"
+          }, {
+            "name" : "arg2",
+            "value" : "${pass}"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "SeleniumLibrary.Click Button",
+          "time" : {
+            "start" : 1629444768498,
+            "stop" : 1629444770160,
+            "duration" : 1662
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "47365fef397f4573",
+            "name" : "Keyword Log",
+            "source" : "47365fef397f4573.html",
+            "type" : "text/html",
+            "size" : 75
+          } ],
+          "parameters" : [ {
+            "name" : "arg1",
+            "value" : "${LogIn}"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${user}"
+        }, {
+          "name" : "arg2",
+          "value" : "${pass}"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "SeleniumKeywords.Then Close Browser Window",
+        "time" : {
+          "start" : 1629444770163,
+          "stop" : 1629444773685,
+          "duration" : 3522
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "SeleniumLibrary.Close All Browsers",
+          "time" : {
+            "start" : 1629444770165,
+            "stop" : 1629444773684,
+            "duration" : 3519
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "rahul"
+      }, {
+        "name" : "arg2",
+        "value" : "verma"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 12,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 13,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "SeleniumEasyBDD"
+  }, {
+    "name" : "framework",
+    "value" : "robotframework"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "host",
+    "value" : "LTIN276433"
+  }, {
+    "name" : "thread",
+    "value" : "default-8b152f94-7b0b-4a70-88c0-4377e447c578"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1aad140f17b779c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629371461475,
+        "stop" : 1629371486408,
+        "duration" : 24933
+      }
+    }, {
+      "uid" : "20832dbfef238d9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629370288051,
+        "stop" : 1629370308722,
+        "duration" : 20671
+      }
+    }, {
+      "uid" : "4521c3993ba3c939",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629370073199,
+        "stop" : 1629370094223,
+        "duration" : 21024
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96ff97f8509b9e3a.json",
+  "parameterValues" : [ ]
+}

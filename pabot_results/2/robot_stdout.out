@@ -1,0 +1,24 @@
+==============================================================================
+WebTestCases                                                                  
+==============================================================================
+WebTestCases.SeleniumEasyDataDriver :: A test suite with multiple test usin...
+==============================================================================
+Testing the Input Form of Selenium Easy Website                       | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+Testing the Input Form of Selenium Easy Website                       | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+Testing the Input Form of Selenium Easy Website                       | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+WebTestCases.SeleniumEasyDataDriver :: A test suite with multiple ... | FAIL |
+3 tests, 0 passed, 3 failed
+==============================================================================
+WebTestCases                                                          | FAIL |
+3 tests, 0 passed, 3 failed
+==============================================================================
+Output:  C:\Users\843974\PycharmProjects\PyRobot\pabot_results\2\output.xml

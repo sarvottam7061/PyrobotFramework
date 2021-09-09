@@ -1,0 +1,430 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LTIN276433",
+    "children" : [ {
+      "name" : "default-ab5da2e7-e68e-417f-97fd-fab962b0ba11",
+      "children" : [ {
+        "name" : "Testing Login using multiple data 2",
+        "uid" : "16975e4832a9bf00",
+        "parentUid" : "047f9946e261d24b53b6efac166ca3f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629119765956,
+          "stop" : 1629119787541,
+          "duration" : 21585
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Testing Login using multiple data 1",
+        "uid" : "7e73b2586b33e70f",
+        "parentUid" : "047f9946e261d24b53b6efac166ca3f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629119744481,
+          "stop" : 1629119765930,
+          "duration" : 21449
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "047f9946e261d24b53b6efac166ca3f3"
+    }, {
+      "name" : "default-2e7718ca-9cdf-4cfc-ae9c-55a8ab2a11bc",
+      "children" : [ {
+        "name" : "2",
+        "uid" : "d6e626a387c9ef75",
+        "parentUid" : "a1e17681bef5b2db5b5585c17a7a8e40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629458292162,
+          "stop" : 1629458309733,
+          "duration" : 17571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "1",
+        "uid" : "c60dadbf8a8851ee",
+        "parentUid" : "a1e17681bef5b2db5b5585c17a7a8e40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629458273649,
+          "stop" : 1629458292153,
+          "duration" : 18504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a1e17681bef5b2db5b5585c17a7a8e40"
+    }, {
+      "name" : "default-55559d0b-26e5-4351-a5cc-115040660f68",
+      "children" : [ {
+        "name" : "5",
+        "uid" : "4c45b9e6e9930977",
+        "parentUid" : "9b11b6e7ef0363355d58a5b7548f1318",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629370308728,
+          "stop" : 1629370330644,
+          "duration" : 21916
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "3",
+        "uid" : "48c858198dc90fec",
+        "parentUid" : "9b11b6e7ef0363355d58a5b7548f1318",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629370267566,
+          "stop" : 1629370288051,
+          "duration" : 20485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "1",
+        "uid" : "4d3e6fe40d27cfda",
+        "parentUid" : "9b11b6e7ef0363355d58a5b7548f1318",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629370223444,
+          "stop" : 1629370244998,
+          "duration" : 21554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "2",
+        "uid" : "c0f3c550212fdad6",
+        "parentUid" : "9b11b6e7ef0363355d58a5b7548f1318",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629370245004,
+          "stop" : 1629370267560,
+          "duration" : 22556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "4",
+        "uid" : "20832dbfef238d9c",
+        "parentUid" : "9b11b6e7ef0363355d58a5b7548f1318",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629370288051,
+          "stop" : 1629370308722,
+          "duration" : 20671
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9b11b6e7ef0363355d58a5b7548f1318"
+    }, {
+      "name" : "default-d5d458b6-4e9c-4431-a58d-714358468bd1",
+      "children" : [ {
+        "name" : "Test case in BDD format",
+        "uid" : "a1cbbb3a40d86274",
+        "parentUid" : "12c07761f1d3b2d72d278453f400ea43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629269259639,
+          "stop" : 1629269289098,
+          "duration" : 29459
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12c07761f1d3b2d72d278453f400ea43"
+    }, {
+      "name" : "default-b6834f1b-6348-443e-a785-6a2aac948f51",
+      "children" : [ {
+        "name" : "3",
+        "uid" : "99590ac6fcf9473b",
+        "parentUid" : "341a00b140c2512401013806209a318f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629370047492,
+          "stop" : 1629370073193,
+          "duration" : 25701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "5",
+        "uid" : "a780293fbf3f8faf",
+        "parentUid" : "341a00b140c2512401013806209a318f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629370094230,
+          "stop" : 1629370116969,
+          "duration" : 22739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "1",
+        "uid" : "28a8f41f8638e6c9",
+        "parentUid" : "341a00b140c2512401013806209a318f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629369992530,
+          "stop" : 1629370023786,
+          "duration" : 31256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "2",
+        "uid" : "59f1e79717a0882a",
+        "parentUid" : "341a00b140c2512401013806209a318f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629370023793,
+          "stop" : 1629370047487,
+          "duration" : 23694
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "4",
+        "uid" : "4521c3993ba3c939",
+        "parentUid" : "341a00b140c2512401013806209a318f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629370073199,
+          "stop" : 1629370094223,
+          "duration" : 21024
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "341a00b140c2512401013806209a318f"
+    }, {
+      "name" : "default-8b152f94-7b0b-4a70-88c0-4377e447c578",
+      "children" : [ {
+        "name" : "3",
+        "uid" : "db021be3ebf2e878",
+        "parentUid" : "fa1933491ca27164e9251d254195ab24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629444731449,
+          "stop" : 1629444751962,
+          "duration" : 20513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "2",
+        "uid" : "19b3d08564d82588",
+        "parentUid" : "fa1933491ca27164e9251d254195ab24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629444710144,
+          "stop" : 1629444731434,
+          "duration" : 21290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "4",
+        "uid" : "96ff97f8509b9e3a",
+        "parentUid" : "fa1933491ca27164e9251d254195ab24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629444751976,
+          "stop" : 1629444773687,
+          "duration" : 21711
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "1",
+        "uid" : "49a33760b31654e",
+        "parentUid" : "fa1933491ca27164e9251d254195ab24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629444689732,
+          "stop" : 1629444710130,
+          "duration" : 20398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "5",
+        "uid" : "510a418b51584071",
+        "parentUid" : "fa1933491ca27164e9251d254195ab24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629444773696,
+          "stop" : 1629444794149,
+          "duration" : 20453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa1933491ca27164e9251d254195ab24"
+    }, {
+      "name" : "default-0891a96f-96b0-49ea-bf3e-9d64c8671d26",
+      "children" : [ {
+        "name" : "Scenario: Using gherkin syntax design test scripts in robot framework",
+        "uid" : "fba5cfe174ea7725",
+        "parentUid" : "460a1e9c5d09df8c98e94eef629a7a84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629293240568,
+          "stop" : 1629293268099,
+          "duration" : 27531
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "460a1e9c5d09df8c98e94eef629a7a84"
+    }, {
+      "name" : "default-a37c7037-cb7a-4c42-ab8f-da341cf8dbb0",
+      "children" : [ {
+        "name" : "5",
+        "uid" : "b66ae77cd260b1c3",
+        "parentUid" : "5e5654317907d2953b27474130509e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629371486421,
+          "stop" : 1629371511627,
+          "duration" : 25206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "3",
+        "uid" : "5c73cede8644bafc",
+        "parentUid" : "5e5654317907d2953b27474130509e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629371438906,
+          "stop" : 1629371461464,
+          "duration" : 22558
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "1",
+        "uid" : "668d9b66176787ab",
+        "parentUid" : "5e5654317907d2953b27474130509e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629371390210,
+          "stop" : 1629371415632,
+          "duration" : 25422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "4",
+        "uid" : "1aad140f17b779c8",
+        "parentUid" : "5e5654317907d2953b27474130509e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629371461475,
+          "stop" : 1629371486408,
+          "duration" : 24933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "2",
+        "uid" : "b174e5ea0c477e11",
+        "parentUid" : "5e5654317907d2953b27474130509e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629371415649,
+          "stop" : 1629371438898,
+          "duration" : 23249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e5654317907d2953b27474130509e27"
+    }, {
+      "name" : "default-0140e3fb-abad-4a1d-a5b9-c1d380cdcfd5",
+      "children" : [ {
+        "name" : "Scenario: Using gherkin syntax design test scripts in robot framework",
+        "uid" : "f1af8f8f4995b88",
+        "parentUid" : "1454088568024e4972bd66cc4a7789a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629277119189,
+          "stop" : 1629277147677,
+          "duration" : 28488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1454088568024e4972bd66cc4a7789a1"
+    }, {
+      "name" : "default-1f60a6c7-f2c8-4e10-8292-3865532453bc",
+      "children" : [ {
+        "name" : "Scenario: Using gherkin syntax design test scripts in robot framework",
+        "uid" : "9719f5848d9a3ba2",
+        "parentUid" : "76a558782fd5f1e4641fcbc6ba8abf39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629293110920,
+          "stop" : 1629293138263,
+          "duration" : 27343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "76a558782fd5f1e4641fcbc6ba8abf39"
+    }, {
+      "name" : "default-5a48912b-e40d-473b-be39-546109873277",
+      "children" : [ {
+        "name" : "Scenario: Using gherkin syntax design test scripts in robot framework",
+        "uid" : "877ca44bf628048c",
+        "parentUid" : "cf4de566125a6b864b9ad0c1655ea6df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629292862411,
+          "stop" : 1629292892646,
+          "duration" : 30235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cf4de566125a6b864b9ad0c1655ea6df"
+    } ],
+    "uid" : "6dfed1dbc632f45aeba73823ba1bcb35"
+  } ]
+}

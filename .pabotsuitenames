@@ -1,0 +1,10 @@
+datasources:5aff9a4bb24b5004a997de1453876227331e44c6
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:619651ea7123604f3f0696390c46657280b20544
+--suite WebTestCases.Addition
+--suite WebTestCases.SeleniumEasy
+--suite WebTestCases.SeleniumEasyDataDriver
+--suite WebTestCases.TC 001 Invalid login
+--suite WebTestCases.TC 002 allure report
+--suite WebTestCases.TC 013 DataDriven

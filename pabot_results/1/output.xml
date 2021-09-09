@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210824 17:06:18.806" rpa="false" schemaversion="2">
+<suite id="s1" name="WebTestCases" source="C:\Users\843974\PycharmProjects\PyRobot\TestCases\WebTestCases">
+<suite id="s1-s1" name="SeleniumEasy" source="C:\Users\843974\PycharmProjects\PyRobot\TestCases\WebTestCases\SeleniumEasy.robot">
+<test id="s1-s1-t1" name="Enter and Submit Input Form with Valid data">
+<kw name="Start Browser and Maximize" library="SeleniumKeywords" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<arg>executable_path=${executable_path}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210824 17:06:44.342" level="INFO">Opening browser 'Chrome' to base url 'https://www.seleniumeasy.com/test/'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210824 17:06:44.353" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20210824 17:06:44.352" endtime="20210824 17:06:44.353"/>
+</kw>
+<msg timestamp="20210824 17:06:44.420" level="FAIL">WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</msg>
+<status status="FAIL" starttime="20210824 17:06:44.329" endtime="20210824 17:06:44.420"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20210824 17:06:44.421" endtime="20210824 17:06:44.422"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>5 seconds</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" starttime="20210824 17:06:44.422" endtime="20210824 17:06:44.423"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="NOT RUN" starttime="20210824 17:06:44.423" endtime="20210824 17:06:44.423"/>
+</kw>
+<status status="FAIL" starttime="20210824 17:06:44.326" endtime="20210824 17:06:44.424"/>
+</kw>
+<kw name="Close Browser Window" library="SeleniumKeywords" type="TEARDOWN">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20210824 17:06:44.426" endtime="20210824 17:06:44.427"/>
+</kw>
+<status status="PASS" starttime="20210824 17:06:44.424" endtime="20210824 17:06:44.428"/>
+</kw>
+<tag>input_form</tag>
+<tag>selenium_ip</tag>
+<status status="FAIL" starttime="20210824 17:06:44.324" endtime="20210824 17:06:44.428">Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</status>
+</test>
+<test id="s1-s1-t2" name="Demo on Python Libraries">
+<kw name="Start Browser and Maximize" library="SeleniumKeywords" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<arg>executable_path=${executable_path}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210824 17:06:44.434" level="INFO">Opening browser 'Chrome' to base url 'https://www.seleniumeasy.com/test/'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210824 17:06:44.436" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20210824 17:06:44.435" endtime="20210824 17:06:44.436"/>
+</kw>
+<msg timestamp="20210824 17:06:44.440" level="FAIL">WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</msg>
+<status status="FAIL" starttime="20210824 17:06:44.432" endtime="20210824 17:06:44.440"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20210824 17:06:44.441" endtime="20210824 17:06:44.441"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>5 seconds</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" starttime="20210824 17:06:44.441" endtime="20210824 17:06:44.442"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="NOT RUN" starttime="20210824 17:06:44.442" endtime="20210824 17:06:44.443"/>
+</kw>
+<status status="FAIL" starttime="20210824 17:06:44.431" endtime="20210824 17:06:44.443"/>
+</kw>
+<kw name="Close Browser Window" library="SeleniumKeywords" type="TEARDOWN">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20210824 17:06:44.445" endtime="20210824 17:06:44.447"/>
+</kw>
+<status status="PASS" starttime="20210824 17:06:44.443" endtime="20210824 17:06:44.448"/>
+</kw>
+<tag>pylib</tag>
+<status status="FAIL" starttime="20210824 17:06:44.429" endtime="20210824 17:06:44.449">Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</status>
+</test>
+<status status="FAIL" starttime="20210824 17:06:19.312" endtime="20210824 17:06:44.450"/>
+</suite>
+<status status="FAIL" starttime="20210824 17:06:19.192" endtime="20210824 17:06:44.453"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">input_form</stat>
+<stat pass="0" fail="1" skip="0">pylib</stat>
+<stat pass="0" fail="1" skip="0">selenium_ip</stat>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="WebTestCases">WebTestCases</stat>
+<stat pass="0" fail="2" skip="0" id="s1-s1" name="SeleniumEasy">WebTestCases.SeleniumEasy</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210824 17:06:35.131" level="ERROR">Error in file 'C:\Users\843974\PycharmProjects\PyRobot\Business_Components\Web_Components\SeleniumEasySteps.robot' on line 3: Importing library 'C:\Users\843974\PycharmProjects\PyRobot\FrameworkLibraries\ReadData.py' failed: FileNotFoundError: [Errno 2] No such file or directory: '../TestData/TestData.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\843974\PycharmProjects\PyRobot\FrameworkLibraries\ReadData.py", line 4, in &lt;module&gt;
+    Workbook = openpyxl.load_workbook("../TestData/TestData.xlsx")
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\openpyxl\reader\excel.py", line 315, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\openpyxl\reader\excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\openpyxl\reader\excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\zipfile.py", line 1239, in __init__
+    self.fp = io.open(file, filemode)
+PYTHONPATH:
+  C:\Users\843974\AppData\Local\Programs\Python\Python39\Scripts\robot.exe
+  C:\Users\843974\PycharmProjects\PyRobot\TestCases
+  c:\users\843974\appdata\local\programs\python\python39\python39.zip
+  c:\users\843974\appdata\local\programs\python\python39\DLLs
+  c:\users\843974\appdata\local\programs\python\python39\lib
+  c:\users\843974\appdata\local\programs\python\python39
+  c:\users\843974\appdata\local\programs\python\python39\lib\site-packages</msg>
+<msg timestamp="20210824 17:06:44.320" level="ERROR">Error in file 'C:\Users\843974\PycharmProjects\PyRobot\TestCases\WebTestCases\SeleniumEasy.robot' on line 5: Importing library 'C:\Users\843974\PycharmProjects\PyRobot\FrameworkLibraries\selenium_driver.py' failed: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\AutomationTraining\\PyRobot\\TestData\\TestData_Check.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\843974\PycharmProjects\PyRobot\FrameworkLibraries\selenium_driver.py", line 18, in &lt;module&gt;
+    read_excel_row("TC_1")
+  File "C:\Users\843974\PycharmProjects\PyRobot\FrameworkLibraries\selenium_driver.py", line 13, in read_excel_row
+    td = pd.read_excel("D:\\AutomationTraining\\PyRobot\\TestData\\TestData_Check.xlsx", sheet_name="Sheet1",
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\pandas\io\excel\_base.py", line 364, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\pandas\io\excel\_base.py", line 1191, in __init__
+    ext = inspect_excel_format(
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\pandas\io\excel\_base.py", line 1070, in inspect_excel_format
+    with get_handle(
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\pandas\io\common.py", line 710, in get_handle
+    handle = open(handle, ioargs.mode)
+PYTHONPATH:
+  C:\Users\843974\AppData\Local\Programs\Python\Python39\Scripts\robot.exe
+  C:\Users\843974\PycharmProjects\PyRobot\TestCases
+  c:\users\843974\appdata\local\programs\python\python39\python39.zip
+  c:\users\843974\appdata\local\programs\python\python39\DLLs
+  c:\users\843974\appdata\local\programs\python\python39\lib
+  c:\users\843974\appdata\local\programs\python\python39
+  c:\users\843974\appdata\local\programs\python\python39\lib\site-packages</msg>
+</errors>
+</robot>

@@ -1,0 +1,20 @@
+==============================================================================
+WebTestCases                                                                  
+==============================================================================
+WebTestCases.SeleniumEasy                                                     
+==============================================================================
+Enter and Submit Input Form with Valid data                           | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+Demo on Python Libraries                                              | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+WebTestCases.SeleniumEasy                                             | FAIL |
+2 tests, 0 passed, 2 failed
+==============================================================================
+WebTestCases                                                          | FAIL |
+2 tests, 0 passed, 2 failed
+==============================================================================
+Output:  C:\Users\843974\PycharmProjects\PyRobot\pabot_results\1\output.xml

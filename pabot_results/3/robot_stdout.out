@@ -1,0 +1,44 @@
+==============================================================================
+WebTestCases                                                                  
+==============================================================================
+WebTestCases.TC 001 Invalid login                                             
+==============================================================================
+Right user empty pass                                                 | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+Right user wrong pass                                                 | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+Empty user right pass                                                 | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+Empty user empty pass                                                 | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+Empty user wrong pass                                                 | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+Wrong user right pass                                                 | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+Wrong user empty pass                                                 | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+Wrong user wrong pass                                                 | FAIL |
+Setup failed:
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+------------------------------------------------------------------------------
+WebTestCases.TC 001 Invalid login                                     | FAIL |
+8 tests, 0 passed, 8 failed
+==============================================================================
+WebTestCases                                                          | FAIL |
+8 tests, 0 passed, 8 failed
+==============================================================================
+Output:  C:\Users\843974\PycharmProjects\PyRobot\pabot_results\3\output.xml

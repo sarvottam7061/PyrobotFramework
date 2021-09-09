@@ -1,0 +1,44 @@
+[ ERROR ] Error in file 'C:\Users\843974\PycharmProjects\PyRobot\Business_Components\Web_Components\SeleniumEasySteps.robot' on line 3: Importing library 'C:\Users\843974\PycharmProjects\PyRobot\FrameworkLibraries\ReadData.py' failed: FileNotFoundError: [Errno 2] No such file or directory: '../TestData/TestData.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\843974\PycharmProjects\PyRobot\FrameworkLibraries\ReadData.py", line 4, in <module>
+    Workbook = openpyxl.load_workbook("../TestData/TestData.xlsx")
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\openpyxl\reader\excel.py", line 315, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\openpyxl\reader\excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\openpyxl\reader\excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\zipfile.py", line 1239, in __init__
+    self.fp = io.open(file, filemode)
+PYTHONPATH:
+  C:\Users\843974\AppData\Local\Programs\Python\Python39\Scripts\robot.exe
+  C:\Users\843974\PycharmProjects\PyRobot\TestCases
+  c:\users\843974\appdata\local\programs\python\python39\python39.zip
+  c:\users\843974\appdata\local\programs\python\python39\DLLs
+  c:\users\843974\appdata\local\programs\python\python39\lib
+  c:\users\843974\appdata\local\programs\python\python39
+  c:\users\843974\appdata\local\programs\python\python39\lib\site-packages
+[ ERROR ] Error in file 'C:\Users\843974\PycharmProjects\PyRobot\TestCases\WebTestCases\SeleniumEasy.robot' on line 5: Importing library 'C:\Users\843974\PycharmProjects\PyRobot\FrameworkLibraries\selenium_driver.py' failed: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\AutomationTraining\\PyRobot\\TestData\\TestData_Check.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\843974\PycharmProjects\PyRobot\FrameworkLibraries\selenium_driver.py", line 18, in <module>
+    read_excel_row("TC_1")
+  File "C:\Users\843974\PycharmProjects\PyRobot\FrameworkLibraries\selenium_driver.py", line 13, in read_excel_row
+    td = pd.read_excel("D:\\AutomationTraining\\PyRobot\\TestData\\TestData_Check.xlsx", sheet_name="Sheet1",
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\pandas\io\excel\_base.py", line 364, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\pandas\io\excel\_base.py", line 1191, in __init__
+    ext = inspect_excel_format(
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\pandas\io\excel\_base.py", line 1070, in inspect_excel_format
+    with get_handle(
+  File "c:\users\843974\appdata\local\programs\python\python39\lib\site-packages\pandas\io\common.py", line 710, in get_handle
+    handle = open(handle, ioargs.mode)
+PYTHONPATH:
+  C:\Users\843974\AppData\Local\Programs\Python\Python39\Scripts\robot.exe
+  C:\Users\843974\PycharmProjects\PyRobot\TestCases
+  c:\users\843974\appdata\local\programs\python\python39\python39.zip
+  c:\users\843974\appdata\local\programs\python\python39\DLLs
+  c:\users\843974\appdata\local\programs\python\python39\lib
+  c:\users\843974\appdata\local\programs\python\python39
+  c:\users\843974\appdata\local\programs\python\python39\lib\site-packages
